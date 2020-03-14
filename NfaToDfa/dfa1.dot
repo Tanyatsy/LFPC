@@ -10,4 +10,4 @@ n4 -> n5 [label=A];
 n4 -> n1 [label=C];
 n5 -> n5 [label=A];
 n5 -> n1 [label=C];
-}
+
