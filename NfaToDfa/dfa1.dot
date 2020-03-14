@@ -1,0 +1,13 @@
+n2 [peripheries=2];
+n5 [peripheries=2];
+n0 -> n1 [label=A];
+n0 -> n0 [label=B];
+n1 -> n2 [label=A];
+n1 -> n1 [label=C];
+n2 -> n3 [label=A];
+n3 -> n4 [label=A];
+n4 -> n5 [label=A];
+n4 -> n1 [label=C];
+n5 -> n5 [label=A];
+n5 -> n1 [label=C];
+}
