@@ -1,0 +1,4 @@
+S -> a | aA | B
+B -> Aa | b
+A -> aBB
+A -> .
