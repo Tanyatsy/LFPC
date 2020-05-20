@@ -1,0 +1,7 @@
+proc( string number )
+ {if
+ (number = "str" or number = "hello"){
+hello = number;
+}
+output(hello);
+}
