@@ -1,7 +1,7 @@
-proc( string text )
+proc( string str, string hello)
  {
- if(text = "str" or text = "hello"){
-hello = number;
+ if(str = "hello" or str = "world"){
+  hello = str;
 }
 output(hello);
 }
