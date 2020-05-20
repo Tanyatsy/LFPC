@@ -1,4 +1,7 @@
-S -> a | aA | B
-B -> Aa | b
-A -> aBB
-A -> .
+S -> A
+A -> aX | bX
+B -> AD
+D -> aD | a
+C -> Ca
+X -> BX | b
+X -> .

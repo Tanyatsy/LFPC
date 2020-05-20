@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         GrammarRules grammar = new GrammarRules();
 //Write absolute path here!!
-            if (grammar.importFile("C:\\Users\\tanya\\Documents\\University\\Program Language\\Labs\\Labs\\RGtoCNF\\CNF\\grammar.txt")) {
+            if (grammar.importFile("src/grammar.txt")) {
                 System.out.println(grammar.toString());
 
             grammar.printGrammar();
